@@ -1,0 +1,15 @@
+body{
+    overflow: hidden;
+}
+
+/*只管body里面的page，里面的里面就不管了*/
+body > .page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body > .page > section{
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid grey;
+}
